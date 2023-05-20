@@ -19,8 +19,7 @@ func getResponse( handler: @escaping(MyResponse?) -> Void){
         }
         do{
             let result = try JSONDecoder().decode(MyResponse.self, from: data)
-           // print(result.items?[0].title ?? "nothing")
-            print(" \n\n\n\n\n\(result.items?.count ?? 0)")
+           
             handler(result)
         }catch{
             print("error getting data")

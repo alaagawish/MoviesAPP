@@ -15,5 +15,6 @@ class Item: Decodable{
     var weekend: String?
     var gross: String?
     var weeks: String?
+    
 }
 

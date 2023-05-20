@@ -9,4 +9,5 @@ import Foundation
 
 protocol DeleteFromCollection{
     func deleteMov(index: Int)
+    
 }

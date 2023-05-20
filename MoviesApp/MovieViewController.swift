@@ -17,7 +17,6 @@ class MovieViewController: UIViewController {
     
     @IBOutlet weak var movieTitle: UILabel!
     
-    
     @IBOutlet weak var movieWeekend: UILabel!
     
     @IBOutlet weak var movieGross: UILabel!

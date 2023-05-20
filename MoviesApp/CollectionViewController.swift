@@ -144,7 +144,7 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
 
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of items
+         
         if stored{
             return storedMovies.count
         }
@@ -166,7 +166,7 @@ class CollectionViewController: UICollectionViewController, UICollectionViewDele
 
 
     func deleteMov(index: Int) {
-        print("kkkkkkkkkkkk \(index)")
+       
         if stored{
             storedMovies.remove(at: index)
             collectionView.reloadData()

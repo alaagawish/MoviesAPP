@@ -8,7 +8,6 @@
 import Foundation
 
 class MyResponse: Decodable{
-    
     var items: [Item]?
     var errorMessage: String?
 }

@@ -93,7 +93,7 @@ class FavouriteTableViewController: UITableViewController {
             print("delete done")
             self.movies.remove(at: indexPath.row)
             tableView.reloadData()
-            let loc = LocalSource(fav: "f")
+            let loc = LocalSource(fav: "fav")
             loc.managedContext.delete(self.moviesR[indexPath.row])
             self.moviesR.remove(at: indexPath.row)
             do{
